@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">   <!-- horizontal = 수평으로 정렬하여 표시 -->
+                                      <!-- vertical = 수직으로 정렬하여 표시 -->
+
+    <!-- LinearLayout - 수평이나 수직방향의 방향성을 가지고 있는 레이 아웃 -->
+    <!-- LinearLayout 은 반드시 orientation 을 가진다. -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn2"/>
+</LinearLayout>

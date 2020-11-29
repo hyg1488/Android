@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
+
+    <!-- FrameLayout = 방향성 x , 안쪽 내용을 왼쪽위로 모아서 곂쳐서 정렬   -->
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0000"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00ff00"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00ffff"
+        android:layout_gravity="right|bottom"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0000ff"
+        android:layout_gravity="center"/>
+    <!--  dp (device independent pixel) : 해상도를 고려해 px, pt 단위 대신 dp 단위 사용 권장..  -->
+</FrameLayout>
