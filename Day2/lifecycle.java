@@ -89,3 +89,4 @@ public class MainActivity extends AppCompatActivity {
     // onStop()
     // onDestroy() --> 앱이 완전히 종료되었을때 딱 한번 호출
 }
+
