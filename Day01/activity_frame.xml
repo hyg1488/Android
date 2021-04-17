@@ -33,4 +33,5 @@
         android:background="#0000ff"
         android:layout_gravity="center"/>
     <!--  dp (device independent pixel) : 해상도를 고려해 px, pt 단위 대신 dp 단위 사용 권장..  -->
+    
 </FrameLayout>
